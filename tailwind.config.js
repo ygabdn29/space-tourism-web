@@ -11,6 +11,7 @@ export default {
       colors: {
         "dark-blue": "#0B0D17",
         "light-blue": "#D0D6F9",
+        "white-04": "rgba(255, 255, 255, 0.04)",
       },
       screens: {
         lg: { min: "1440px" },

@@ -28,7 +28,7 @@ function PageLayout() {
             />
           </div>
 
-          <ul className="flex font-barlow-condensed lg:bg-transparent md:bg-dark-blue lg:backdrop-blur-3xl lg:flex-[0_1_60%] md:flex[0_1_70%] md:gap-10 lg:justify-between md:justify-between lg:pl-[7.75rem] lg:pr-[10.25rem] md:px-12 tracking-[.27em] lg:text-base md:text-sm">
+          <ul className="flex font-barlow-condensed lg:bg-white-04  md:bg-white-04 lg:backdrop-blur-3xl md:backdrop-blur-3xl lg:flex-[0_1_60%] md:flex[0_1_70%] md:gap-10 lg:justify-between md:justify-between lg:pl-[7.75rem] lg:pr-[10.25rem] md:px-12 tracking-[.27em] lg:text-base md:text-sm">
             <li className="text-white lg:py-10 md:py-10">
               <NavLink
                 to="home"
@@ -81,9 +81,9 @@ function PageLayout() {
         </nav>
       </header>
 
-      <main>
+      <div className="lg:grid place-content-center">
         <Outlet></Outlet>
-      </main>
+      </div>
     </div>
   );
 }
