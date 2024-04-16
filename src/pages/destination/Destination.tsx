@@ -11,6 +11,7 @@ function Destination() {
           src="public\assets\destination\image-moon.webp"
           alt="Image of destination"
         />
+
         <div>
           <ul className="flex text-white">
             <li>Planet</li>
