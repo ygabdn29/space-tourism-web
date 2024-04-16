@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <main className="lg:flex lg:mt-[10.625rem] lg:px-[10.25rem] lg:max-w-[90rem]">
+    <main className="lg:flex lg:mt-[15.625rem] lg:px-[10.25rem] lg:max-w-[90rem]">
       <div className="flex flex-col lg:flex-[0_1_50%] lg:gap-6">
         <h1 className=" uppercase text-light-blue font-barlow-condensed lg:text-[1.75rem]">
           So, You Want To Travel to
@@ -17,13 +17,15 @@ function Home() {
         </p>
       </div>
 
-      <div className="">
-        <a
-          href=""
-          className="uppercase font-bellefair lg:text-[2rem] lg:p-[17.125rem]"
-        >
-          Explore
-        </a>
+      <div className="lg:flex-[0_1_50%]">
+        <div className="relative bg-white rounded-full lg:h-[17.125rem] lg:w-[17.125rem]">
+          <a
+            href=""
+            className="absolute uppercase font-bellefair lg:text-[2rem] top-1/2 right-1/2 translate-x-1/2 -translate-y-1/2"
+          >
+            Explore
+          </a>
+        </div>
       </div>
     </main>
   );
