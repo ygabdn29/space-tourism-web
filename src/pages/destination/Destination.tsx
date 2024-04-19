@@ -1,4 +1,10 @@
+import useData from "../../utilities/UseData";
+
 function Destination() {
+  const { getDestination } = useData();
+  const destination = getDestination();
+  destination.map((dest) => console.log(dest.name));
+
   return (
     <div className="lg:mt-20 lg:ml-[10.5rem] lg:mr-[10.25rem]">
       <h1 className="uppercase font-barlow-condensed text-white lg:text-[1.75rem] lg:tracking-[0.17em]">
@@ -12,11 +18,10 @@ function Destination() {
           alt="Image of destination"
         />
         <div>
-          <ul className="flex text-white">
-            <li>Planet</li>
-            <li>Planet</li>
-            <li>Planet</li>
-            <li>Planet</li>
+          <ul className="flex text-white lg:gap-9">
+            {destination.map((dest) => (
+              <li>{dest.name}</li>
+            ))}
           </ul>
 
           <h2 className="font-bellefair text-white uppercase lg:text-[6.25rem]">
