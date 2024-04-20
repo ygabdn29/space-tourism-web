@@ -27,7 +27,7 @@ const router = createBrowserRouter(
 function App() {
   return (
     <DataContextProvider>
-      <RouterProvider router={router}></RouterProvider>;
+      <RouterProvider router={router}></RouterProvider>
     </DataContextProvider>
   );
 }
