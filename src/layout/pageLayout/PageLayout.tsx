@@ -12,7 +12,6 @@ function PageLayout() {
     },
     [page]
   );
-  console.log(currentPage);
 
   return (
     <div
