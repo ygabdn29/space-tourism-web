@@ -70,7 +70,7 @@ function Destination() {
           </p>
           <hr className="lg:mb-7 md:mb-7" />
 
-          <div className="flex lg:gap-20 md:gap-3 md:justify-around">
+          <div className="flex lg:gap-20 md:gap-3 lg:justify-start md:justify-around">
             <div>
               <p className="font-barlow text-sm text-light-blue tracking-[0.17em] lg:text-left md:text-center">
                 Avg. Distance
