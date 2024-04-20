@@ -1,9 +1,12 @@
+import { useState } from "react";
 import useData from "../../utilities/UseData";
 
 function Destination() {
+  const [currentDestination, setCurrentDestination] = useState(0);
+  console.log(currentDestination);
+
   const { getDestination } = useData();
   const destination = getDestination();
-  destination.map((dest) => console.log(dest.name));
 
   return (
     <div className="lg:mt-20 lg:ml-[10.5rem] lg:mr-[10.25rem]">
@@ -14,25 +17,29 @@ function Destination() {
 
       <div className="flex lg:gap-40">
         <img
-          src="public\assets\destination\image-moon.webp"
+          src={`${destination[currentDestination]["images"]["webp"]}`}
           alt="Image of destination"
         />
         <div>
           <ul className="flex text-white lg:gap-9">
-            {destination.map((dest) => (
-              <li>{dest.name}</li>
+            {destination.map((dest, i) => (
+              <li
+                key={dest.name}
+                onClick={() => {
+                  setCurrentDestination(i);
+                }}
+              >
+                {dest.name}
+              </li>
             ))}
           </ul>
 
           <h2 className="font-bellefair text-white uppercase lg:text-[6.25rem]">
-            Moon
+            {destination[currentDestination]["name"]}
           </h2>
 
           <p className="font-barlow text-light-blue text-lg">
-            See our planet as you’ve never seen it before. A perfect relaxing
-            trip away to help regain perspective and come back refreshed. While
-            you’re there, take in some history by visiting the Luna 2 and Apollo
-            11 landing sites.
+            {destination[currentDestination]["description"]}
           </p>
           <hr />
 
@@ -43,7 +50,7 @@ function Destination() {
               </p>
 
               <p className="font-bellefair uppercase text-white text-[1.75rem]">
-                384,400 KM
+                {destination[currentDestination]["distance"]}
               </p>
             </div>
 
@@ -53,7 +60,7 @@ function Destination() {
               </p>
 
               <p className="font-bellefair uppercase text-white text-[1.75rem]">
-                3 Days
+                {destination[currentDestination]["travel"]}
               </p>
             </div>
           </div>
