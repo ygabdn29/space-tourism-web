@@ -10,6 +10,7 @@ import Home from "./pages/home/Home";
 import Destination from "./pages/destination/Destination";
 import Crew from "./pages/crew/Crew";
 import Technology from "./pages/technology/Technology";
+import { DataContextProvider } from "./context/DataContext";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -24,7 +25,11 @@ const router = createBrowserRouter(
 );
 
 function App() {
-  return <RouterProvider router={router}></RouterProvider>;
+  return (
+    <DataContextProvider>
+      <RouterProvider router={router}></RouterProvider>
+    </DataContextProvider>
+  );
 }
 
 export default App;

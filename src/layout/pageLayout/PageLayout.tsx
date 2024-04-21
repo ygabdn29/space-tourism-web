@@ -12,7 +12,6 @@ function PageLayout() {
     },
     [page]
   );
-  console.log(currentPage);
 
   return (
     <div
@@ -81,7 +80,7 @@ function PageLayout() {
         </nav>
       </header>
 
-      <div className="lg:grid place-content-center">
+      <div className="lg:grid lg:place-content-center">
         <Outlet></Outlet>
       </div>
     </div>
