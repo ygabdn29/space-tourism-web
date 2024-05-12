@@ -58,12 +58,12 @@ function Technology() {
             {technologies[currentTechnology]?.name}
           </h3>
 
-          <p className="font-barlow md:mx-40 text-light-blue lg:text-lg md:text-base lg:leading-8 md:leading-7">
+          <p className="font-barlow lg:mx-0 md:mx-40 text-light-blue lg:text-lg md:text-base lg:leading-8 md:leading-7">
             {technologies[currentTechnology].description}
           </p>
         </div>
 
-        <div className="row-start-1 lg:row-auto md:self">
+        <div className="row-start-1 lg:row-auto">
           <picture>
             <source
               srcSet={`${technologies[currentTechnology]["images"].landscape}`}
