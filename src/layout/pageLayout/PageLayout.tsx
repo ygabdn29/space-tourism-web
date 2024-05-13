@@ -28,37 +28,39 @@ function PageLayout() {
           </div>
 
           <ul className="flex font-barlow-condensed lg:bg-white-04  md:bg-white-04 lg:backdrop-blur-3xl md:backdrop-blur-3xl lg:flex-[0_1_60%] md:flex[0_1_70%] md:gap-10 lg:justify-between md:justify-between lg:pl-[7.75rem] lg:pr-[10.25rem] md:px-12 tracking-[.27em] lg:text-base md:text-sm">
-            <li className="text-white lg:py-10 md:py-10">
+            <li className="text-white md:py-10">
               <NavLink
                 to="home"
                 className={({ isActive }) =>
                   isActive
-                    ? "lg:py-10 md:py-10 lg:border-b-4 lg:border-b-white transition-all duration-300"
-                    : "lg:py-10 md:py-10 transition-all duration-300"
+                    ? "md:py-10 md:border-b-4 md:border-b-white transition-all duration-300"
+                    : "md:py-10 transition-all duration-300"
                 }
               >
                 <span className="font-bold md:hidden">00</span> Home
               </NavLink>
             </li>
-            <li className="text-white lg:py-10 md:py-10">
+
+            <li className="text-white md:py-10">
               <NavLink
                 to="destination"
                 className={({ isActive }) =>
                   isActive
-                    ? "lg:py-10 md:py-10 lg:border-b-4 lg:border-b-white transition-all duration-300"
-                    : "lg:py-10 md:py-10 transition-all duration-300"
+                    ? "md:py-10 md:border-b-4 md:border-b-white transition-all duration-300"
+                    : "md:py-10 transition-all duration-300"
                 }
               >
                 <span className="font-bold md:hidden">01</span> Destination
               </NavLink>
             </li>
-            <li className="text-white lg:py-10 md:py-10">
+
+            <li className="text-white md:py-10">
               <NavLink
                 to="crew"
                 className={({ isActive }) =>
                   isActive
-                    ? "lg:py-10 md:py-10 lg:border-b-4 lg:border-b-white transition-all duration-300"
-                    : "lg:py-10 md:py-10 transition-all duration-300"
+                    ? "md:py-10 md:border-b-4 md:border-b-white transition-all duration-300"
+                    : "md:py-10 transition-all duration-300"
                 }
               >
                 <span className="font-bold md:hidden">02</span> Crew
@@ -69,8 +71,8 @@ function PageLayout() {
                 to="technology"
                 className={({ isActive }) =>
                   isActive
-                    ? "lg:py-10 md:py-10 lg:border-b-4 lg:border-b-white transition-all duration-300"
-                    : "lg:py-10 md:py-10 transition-all duration-300"
+                    ? "md:py-10 md:border-b-4 md:border-b-white transition-all duration-300"
+                    : "md:py-10 transition-all duration-300"
                 }
               >
                 <span className="font-bold md:hidden">03</span> Technology
