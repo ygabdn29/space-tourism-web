@@ -16,7 +16,7 @@ function Crew() {
   );
 
   return (
-    <div className="flex lg:flex-row md:flex-col lg:gap-24 lg:mt-20 lg:ml-[10.5rem] lg:mr-[5.625rem]">
+    <div className="flex flex-col lg:flex-row lg:gap-24 lg:mt-20 lg:ml-[10.5rem] lg:mr-[5.625rem]">
       <div className="flex-[1_1_60%]">
         <h1 className="uppercase font-barlow-condensed lg:mb-[9.625rem] md:mb-[3.75rem] lg:mt-0 md:mt-10 lg:ml-0 md:ml-10 text-white lg:text-[1.75rem] md:text-[1.25rem] lg:tracking-[0.17em] md:tracking-[0.17em]">
           <span className="font-bold opacity-25 lg:mr-7 md:mr-4 ">02</span>
