@@ -17,7 +17,7 @@ function PageLayout() {
   const navStyleMobile = `absolute flex flex-col gap-8 z-30 h-dvh w-[15.875rem] top-0 right-0 ${
     navToggle
       ? "visible pointer-events-auto opacity-100"
-      : "invisible pointer-events-none opacity-0"
+      : "invisible md:visible pointer-events-none md:pointer-events-auto opacity-0 md:opacity-100"
   }`;
 
   useEffect(
@@ -112,7 +112,7 @@ function PageLayout() {
         </nav>
       </header>
 
-      <div className="lg:grid lg:place-content-center">
+      <div className="md:grid md:place-content-center">
         <Outlet></Outlet>
       </div>
     </div>

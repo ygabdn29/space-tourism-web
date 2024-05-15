@@ -13,6 +13,7 @@
 
 .destination {
   background-image: url("../public/assets/destination/background-destination-mobile.jpg");
+  background-size: cover;
 
   @media (min-width: 700px) {
     background-image: url("../public/assets/destination/background-destination-tablet.jpg");
