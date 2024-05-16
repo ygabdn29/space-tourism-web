@@ -35,7 +35,7 @@ function PageLayout() {
         <nav className="flex align-middle justify-between">
           <div className="lg:flex-[0_1_40%] md:flex-[0_1_30%] self-center">
             <img
-              src="public\assets\shared\logo.svg"
+              src="assets\shared\logo.svg"
               alt="Space Tourism Logo"
               className=" lg:w-12 lg:h-12 self-center"
             />
@@ -103,8 +103,8 @@ function PageLayout() {
             <img
               src={
                 navToggle
-                  ? "public/assets/shared/icon-close.svg"
-                  : "public/assets/shared/icon-hamburger.svg"
+                  ? "/assets/shared/icon-close.svg"
+                  : "/assets/shared/icon-hamburger.svg"
               }
               alt=""
             />
