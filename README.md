@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ygabdn29/space-tourism-web)
-- Live Site URL: [Add live site URL here](https://yga-bdn-space-tourism.netlify.app/)
+- Solution URL: [Solution URL](https://github.com/ygabdn29/space-tourism-web)
+- Live Site URL: [Live Site](https://yga-bdn-space-tourism.netlify.app/)
 
 ## My process
 
@@ -45,7 +45,7 @@ Users should be able to:
 
 ### What I learned
 
-In this project, I think I exercise lots of things I've learnt before and use them in a new way.
+In this project, I think I exercised lots of things I've learned before and used them in a new way.
 
 ### Continued development
 
