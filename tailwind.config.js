@@ -15,7 +15,7 @@ export default {
         "white-05": "rgba(255, 255, 255, 0.5)",
       },
       screens: {
-        lg: { min: "1440px" },
+        lg: { min: "1200px" },
         md: { min: "700px" },
       },
     },
