@@ -29,7 +29,7 @@ function PageLayout() {
 
   return (
     <div
-      className={`max-h-dvh h-dvh bg-no-repeat bg-cover transition-all duration-300 ${styles[currentPage]}`}
+      className={`max-h-screen h-screen bg-no-repeat bg-cover transition-all duration-300 ${styles[currentPage]}`}
     >
       <header className="px-6 pt-6 lg:pt-10 lg:pl-14 md:pl-10 md:pr-0">
         <nav className="flex align-middle justify-between">
