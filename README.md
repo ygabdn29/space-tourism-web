@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/ygabdn29/space-tourism-web)
-- Live Site URL: [Live Site](https://yga-bdn-space-tourism.netlify.app/)
+- Live Site URL: [Live Site](https://ygabdn29-space-tourism.netlify.app/)
 
 ## My process
 
