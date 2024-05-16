@@ -16,7 +16,7 @@ function Technology() {
   );
 
   return (
-    <main className="flex flex-col lg:gap-x-20 lg:ml-[10.25rem] mt-9 lg:mt-20 md:mt-10">
+    <main className="flex flex-col mb-4 lg:gap-x-20 lg:ml-[10.25rem] mt-9 lg:mt-20 md:mt-10">
       <h1 className="col-span-full uppercase font-barlow-condensed text-white mb-8 lg:mb-24 md:mb-[3.75rem] lg:ml-0 md:ml-10 lg:text-[1.75rem] md:text-[1.25rem] tracking-[0.17em] text-center md:text-left">
         <span className="font-bold opacity-25 mr-4 lg:mr-7 md:mr-4">03</span>
         Space Launch 101

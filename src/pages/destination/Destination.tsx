@@ -29,7 +29,7 @@ function Destination() {
   );
 
   return (
-    <main className="lg:max-w-[90rem] md:max-w-[48rem] mt-9 lg:mt-20 md:mt-10 lg:ml-[10.5rem] lg:mr-[10.25rem]">
+    <main className="mb-4 lg:max-w-[90rem] md:max-w-[48rem] mt-9 lg:mt-20 md:mt-10 lg:ml-[10.5rem] lg:mr-[10.25rem]">
       <h1 className="uppercase font-barlow-condensed text-white mb-8 lg:mb-24 md:mb-14 lg:ml-0 md:ml-10 text-base lg:text-[1.75rem] md:text-[1.25rem] tracking-[0.17em] lg:tracking-[0.17em] md:tracking-[0.17em] text-center md:text-left">
         <span className="font-bold opacity-25 mr-5 lg:mr-7">01</span>
         Pick Your Destination

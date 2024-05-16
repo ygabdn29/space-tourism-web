@@ -16,7 +16,7 @@ function Crew() {
   );
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-[1.25fr_1fr] mt-9 lg:mt-20 md:mt-0 lg:ml-[10.5rem] lg:mr-[5.625rem]">
+    <main className="grid grid-cols-1 mb-4 lg:grid-cols-[1.25fr_1fr] mt-9 lg:mt-20 md:mt-0 lg:ml-[10.5rem] lg:mr-[5.625rem]">
       <h1 className="uppercase lg:col-span-full font-barlow-condensed mb-8 lg:mb-[9.625rem] md:mb-[3.75rem] lg:mt-0 md:mt-10 md:ml-10 text-white text-base lg:text-[1.75rem] md:text-[1.25rem] tracking-[0.17em] text-center md:text-left">
         <span className="font-bold opacity-25 mr-4 lg:mr-7">02</span>
         Meet Your Crew
@@ -60,7 +60,7 @@ function Crew() {
       </div>
 
       <hr className="row-start-3 border-1 border-[#383B4B] mx-6 mb-8 md:hidden" />
-    </div>
+    </main>
   );
 }
 
